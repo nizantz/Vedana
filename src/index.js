@@ -1,29 +1,7 @@
-import FadeTransition from './Fade/FadeTransition.vue'
-
-import ZoomCenterTransition from './Zoom/ZoomCenterTransition.vue'
-import ZoomXTransition from './Zoom/ZoomXTransition.vue'
-import ZoomYTransition from './Zoom/ZoomYTransition.vue'
-
-import CollapseTransition from './Collapse/CollapseTransition.vue'
-
-import ScaleTransition from './Scale/ScaleTransition.vue'
-
-import SlideYUpTransition from './Slide/SlideYUpTransition.vue'
-import SlideYDownTransition from './Slide/SlideYDownTransition.vue'
-import SlideXLeftTransition from './Slide/SlideXLeftTransition.vue'
-import SlideXRightTransition from './Slide/SlideXRightTransition.vue'
+import ListItem from './components/ListItem.vue'
 
 let components = {
-  [FadeTransition.name]: FadeTransition,
-  [ZoomCenterTransition.name]: ZoomCenterTransition,
-  [ZoomXTransition.name]: ZoomXTransition,
-  [ZoomYTransition.name]: ZoomYTransition,
-  [CollapseTransition.name]: CollapseTransition,
-  [ScaleTransition.name]: ScaleTransition,
-  [SlideYUpTransition.name]: SlideYUpTransition,
-  [SlideYDownTransition.name]: SlideYDownTransition,
-  [SlideXLeftTransition.name]: SlideXLeftTransition,
-  [SlideXRightTransition.name]: SlideXRightTransition,
+  [ListItem.name]: ListItem,
 }
 
 function install(Vue, options) {
@@ -46,14 +24,5 @@ export default {
 }
 
 export {
-  FadeTransition,
-  ZoomCenterTransition,
-  ZoomXTransition,
-  ZoomYTransition,
-  CollapseTransition,
-  ScaleTransition,
-  SlideYUpTransition,
-  SlideYDownTransition,
-  SlideXLeftTransition,
-  SlideXRightTransition
+  ListItem
 }
