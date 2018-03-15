@@ -1,11 +1,17 @@
 import ListItem from './components/ListItem.vue'
 import Toolbar from './components/Toolbar.vue'
 import ToolbarLogo from './components/ToolbarLogo.vue'
+import Input from './components/Input.vue'
+import Button from './components/Button.vue'
+import Select from './components/Select.vue'
 
 let components = {
   [ListItem.name]: ListItem,
   [Toolbar.name]: Toolbar,
-  [ToolbarLogo.name]: ToolbarLogo
+  [ToolbarLogo.name]: ToolbarLogo,
+  [Input.name]: Input,
+  [Button.name]: Button,
+  [Select.name]: Select
 }
 
 function install(Vue, options) {
@@ -30,5 +36,8 @@ export default {
 export {
   ListItem,
   Toolbar,
-  ToolbarLogo
+  ToolbarLogo,
+  Input,
+  Button,
+  Select
 }

@@ -1,6 +1,6 @@
 {
   "name": "vedana",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Vue2 UI Framework",
   "main": "src/index.js",
   "directories": {

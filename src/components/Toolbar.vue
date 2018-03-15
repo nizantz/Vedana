@@ -16,9 +16,6 @@ export default {
     .v-toolbar {
         width:100%;
         height: 45px;
-        position:absolute;
-        left:0;
-        top:0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
