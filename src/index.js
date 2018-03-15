@@ -1,7 +1,11 @@
 import ListItem from './components/ListItem.vue'
+import Toolbar from './components/Toolbar.vue'
+import ToolbarLogo from './components/ToolbarLogo.vue'
 
 let components = {
   [ListItem.name]: ListItem,
+  [Toolbar.name]: Toolbar,
+  [ToolbarLogo.name]: ToolbarLogo
 }
 
 function install(Vue, options) {
@@ -24,5 +28,7 @@ export default {
 }
 
 export {
-  ListItem
+  ListItem,
+  Toolbar,
+  ToolbarLogo
 }

@@ -15,7 +15,8 @@
 
 <script>
 export default {
-    props:['label', 'sublabel', 'icon-left', 'icon-right']
+    props:['label', 'sublabel', 'icon-left', 'icon-right'],
+    name:'VListItem'
 
 }
 </script>
